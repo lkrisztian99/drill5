@@ -15,19 +15,19 @@ int main(){
  	//string s = "ape"; bool c = "fool" > s; if (c) cout << "9.Success!\n";
 	//string s = "ape"; if (s != "fool") cout << "10.Success!\n";
 	//string s = "ape"; if (s != "fool") cout << "11.Success!\n";
-	//string s = "ape"; string check = "nothing"; if (check != s + "fool") { cout << "Success!\n"; } //12
+	//string s = "ape"; string check = "nothing"; if (check != s + "fool") { cout << "12.Success!\n"; } //12
 	//vector<char> v(5); for (int i = 0; i < v.size(); ++i)/*;*/ cout << "Success!\n"; //13
 	//vector<char> v(5); for (int i = 0; i <= v.size(); ++i)/*;*/ cout << "Success!\n"; //14
-	//string s = "Success!"; for (int i = 0; i < s.size(); ++i) cout << s[i]; //15
-	//if (true) cout << "Success!\n"; else cout << "Fail!\n"; //16
-	//int x = 2000; int c = x; if (c == 2000) cout << "Success!\n"; //17
-	//string s = "Success!\n"; for (int i = 0; i < 7; i++) cout << s[i]; //18
-	vector<int> v(5); for (int i = 0; i <= v.size(); ++i); cout << "Success!\n"; //19
-	//int i = 0; int j = 9; while (i < 10) {i++; if (j > i) cout << "Success!\n";} //20
-	//double x = 2; double d = 5 / (x – 1); if (d == 2 * (x + 0.5)) cout << "Success!\n"; //21
-        //vector<string> s; s.push_back("Success!\n"); for (int i = 0; i < s.size(); ++i) cout << s[i];
-	//int i = 0; int j = 11; while (i < 10) ++i; if (j > i) cout << "Success!\n";
-	//double x = 2; double d = 5 / (x – 1); if (d = 2 * (x + 0.5)) cout << "Success!\n";
+	//string s = "15.Success!\n"; for (int i = 0; i < s.size(); ++i) cout << s[i]; //15
+	//if (true) cout << "16.Success!\n"; else cout << "Fail!\n"; //16
+	//int x = 2000; int c = x; if (c == 2000) cout << "17.Success!\n"; //17
+	//string s = "Success!\n"; for (int i = 0; i < s.size(); i++) cout << s[i]; //18
+	//vector<int> v(5); for (int i = 0; i <= v.size(); ++i); cout << "19.Success!\n"; //19
+	//int i = 0; int j = 9; while (i < 10) {i++; if (j > i) cout << "20.Success!\n";} //20
+	//int x=3; double d=5/(x-2); if(d!=2*x+0.5) cout<<"21.Success\n";//21
+        //string s= "Success!\n"; for (int i=0; i< s.size(); i++) cout << s[i];
+	//int i = 0; int j = 11; while (i < 10) {++i; if (j > i) cout << "23.Success!\n";}
+	//int x = 4; double d = 5/(x-2); if (d !=2*x+0.5) cout << "24.Success!\n";
 	//cout << "Success!\n";
 	keep_window_open();
 	return 0;
